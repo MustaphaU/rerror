@@ -23,7 +23,7 @@ Follow these steps to set up and reproduce a recursion error with a TensorFlow m
    - Upload the notebook `test.ipynb` to the JupyterLab directory.
    - Create a folder named `code1` in the directory and upload all files from the `code1` folder of this repository into it.
 
-6. **Clone the Repository (Alternative Setup):**
+6. **Clone the Repository (Alternative Setup to 5):**
    - Alternatively, you can clone the repository directly into JupyterLab:
      - Open the Git tab, select `Clone a Repository` from the dropdown, enter the URI: `https://github.com/MustaphaU/rerror.git`, and hit `Clone`.
 
