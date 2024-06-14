@@ -1,6 +1,6 @@
 ## Deploying a Dummy TensorFlow Model to Reproduce the Recursion Error
 
-Follow these steps to set up and reproduce a recursion error with a TensorFlow model in AWS SageMaker:
+Follow these steps to set up and reproduce the `maximum recursion depth exceeded` error when trying to read s3 objects via an inference script:
 
 1. **Create an S3 Bucket:**
    - Create a bucket, for example, named `bucket11`.
