@@ -7,6 +7,7 @@
 ...
 json_object = s3_client.get_object(Bucket="bucket11", Key=key)
 ...
+
 ```
 4. Start a sagemaker notebook instance. For this test, I used an `ml.t3.medium` instance
 5. Launch Jupyterlab from the instance, upload the notebook `test.ipnb` to the directory. Next, create a folder named `code1` in the directory and upload the files in `code1` of this repo to the newly created folder. Nest, upload the 
